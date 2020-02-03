@@ -99,11 +99,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Source",
+        href: "https://mirrors.tuna.tsinghua.edu.cn/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "Tensorflow",
+        href: "http://www.tensorfly.cn/tfdoc/get_started/introduction.html"
     },{
         title: "Apple",
         href: "https://apple.com"
