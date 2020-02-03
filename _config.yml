@@ -7,7 +7,7 @@ description: "Every failure is leading towards success."
 keyword: "Lin, Lin Blog, 黄梓林的博客, huangzilin, 黄梓林, python, Machine Learning, AI"
 url: "https://Biggig.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Biggig/Biggig.github.io.git" # you code repository
+github_repo: "https://github.com/QiuBaiYing/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
