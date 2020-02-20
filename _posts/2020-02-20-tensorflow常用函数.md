@@ -40,4 +40,8 @@ tf.layers.dropout<br>
 dropout层<br>
 <br>
 tf.contrib.layers.layer_norm<br>
+Layer Normalization 针对一个样本各个维度的输出值进行归一化<br>
+经过归一化再输入激活函数，得到的值大部分会落入非线性函数的线性区，导数远离导数饱和区，避免了梯度消失，这样来加速训练收敛过程。<br>
+<br>
 tf.nn.softmax<br>
+用于计算在多个分类上的概率,可以在不同的维度上进行softmax<br>
