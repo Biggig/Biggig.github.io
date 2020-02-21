@@ -40,3 +40,7 @@ ensures that the predictions for position i can depend only on the known outputs
 ### Scaled Dot-Product Attention
 
 ### Multi-Head Attention
+
+## self-atttention
+
+Self-attention即K=V=Q
