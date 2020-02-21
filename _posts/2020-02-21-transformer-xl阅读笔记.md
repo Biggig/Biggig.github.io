@@ -37,3 +37,9 @@ the vanilla model is not able to fully exploit this(transformer) optimization ad
 * simply chunking a sequence into fixed-length segments will lead to the context fragmentation problem 
 
 会导致上下文碎片化问题
+
+* 评估阶段每次只预测一位，右移一位，
+
+此过程可确保每个预测都利用训练过程中暴露的尽可能长的上下文，并且还可以缓解训练中遇到的上下文碎片问题。
+
+但是代价过于昂贵
