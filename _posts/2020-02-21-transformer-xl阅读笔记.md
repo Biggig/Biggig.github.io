@@ -1,7 +1,7 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context阅读笔记 # 标题 
-subtitle:   Transformer-XL #副标题
+title:      transformer-Xl阅读笔记 				# 标题 
+subtitle:   transformer-Xl #副标题
 date:       2020-02-21 				# 时间
 author:     BY 黄梓林						# 作者
 header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
