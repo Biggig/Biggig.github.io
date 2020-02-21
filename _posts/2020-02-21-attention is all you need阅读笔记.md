@@ -36,3 +36,7 @@ ensures that the predictions for position i can depend only on the known outputs
 
 注意力函数可以说是  a query and a set of key-value pairs 到 an output 的映射，其中
  the query, keys, values, and output 都是向量，output 是 values 的权重和，每个 value 的权重则是通过 query 以及相应的 key 计算得到。 (computed by a compatibility function)
+
+### Scaled Dot-Product Attention
+
+### Multi-Head Attention
