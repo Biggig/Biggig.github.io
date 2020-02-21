@@ -15,12 +15,11 @@ tags:								#标签
 
 ![transformer](/img/a9fak-y4zyr.jpg)
 
-transformer 由 encoder 以及 decoder 组成
+    transformer 由 encoder 以及 decoder 组成
 
 ### encoder
 
-    encoder 由6层完全相同的结构组成，每层包括两部分：
-
-a multi-head self-attention mechanism + positionwise fully connected feed-forward network
+    encoder 由6层完全相同的结构组成，每层包括两部分：a multi-head self-attention mechanism + 
+    positionwise fully connected feed-forward network
 
     因为每层的输出都要进行残差连接 (residual connection) ，所以每层最后的输出为 LayerNorm(x + Sublayer(x))，维度为512
