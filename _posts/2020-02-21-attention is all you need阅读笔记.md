@@ -15,7 +15,7 @@ tags:								#标签
 
 ![transformer](/img/a9fak-y4zyr.jpg)
 
-    transformer 由 encoder 以及 decoder 组成
+transformer 由 encoder 以及 decoder 组成
 
 ### encoder
 
@@ -31,3 +31,10 @@ which performs multi-head attention over the output of the encoder stack.
 
 同时对  self-attention sub-layer in the decoder stack 进行了调整，
 ensures that the predictions for position i can depend only on the known outputs at positions less than i.
+
+## attention
+
+An attention function can be described as mapping a query and a set of key-value pairs to an output,
+where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
+of the values, where the weight assigned to each value is computed by a compatibility function of the
+query with the corresponding key.
