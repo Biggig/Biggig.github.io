@@ -1,6 +1,6 @@
 ---
 layout:     post   				    # 使用的布局（不需要改）
-title:      Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context阅读笔记 				# 标题 
+title:      Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context阅读笔记 # 标题 
 subtitle:   Transformer-XL #副标题
 date:       2020-02-21 				# 时间
 author:     BY 黄梓林						# 作者
@@ -11,6 +11,7 @@ tags:								#标签
     - 机器阅读理解
 ---
 
+
 ## Model
 
 In order to apply Transformer or self-attention tovlanguage modeling, the central problem is how to
@@ -18,12 +19,16 @@ train a Transformer to effectively encode an arbitrarily long context into a fix
 
 ### Vanilla Transformer Language Models
 
-做法： split the entire corpus into shorter segments of manageable sizes, 
+做法： 
+
+split the entire corpus into shorter segments of manageable sizes, 
 and only train the model within each segment, 
 ignoring all contextual information from previous segments. 
+
 将文本分成大小相同的段，放进模型中训练，忽略上下文之间的联系
 
 问题：
+
 * the largest possible dependency length is upper bounded by the segment length, 
 the vanilla model is not able to fully exploit this(transformer) optimization advantage. 
 
