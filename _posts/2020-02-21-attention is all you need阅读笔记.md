@@ -34,7 +34,5 @@ ensures that the predictions for position i can depend only on the known outputs
 
 ## attention
 
-An attention function can be described as mapping a query and a set of key-value pairs to an output,
-where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
-of the values, where the weight assigned to each value is computed by a compatibility function of the
-query with the corresponding key.
+注意力函数可以说是  a query and a set of key-value pairs 到 an output 的映射，其中
+ the query, keys, values, and output 都是向量，output 是 values 的权重和，每个 value 的权重则是通过 query 以及相应的 key 计算得到。 (computed by a compatibility function)
