@@ -27,6 +27,8 @@ tf.nn.embedding_lookup<br>
 tf.einsum<br>
 进行矩阵运算<br>
 <br>
+tf.gfile.ListDirectory<br>
+罗列dirname目录下的所有文件并以列表形式返回，dirname必须是目录名。<br>
 tf.concat<br>
 用来拼接张量<br>
 <br>
