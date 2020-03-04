@@ -29,6 +29,7 @@ tf.einsum<br>
 <br>
 tf.gfile.ListDirectory<br>
 罗列dirname目录下的所有文件并以列表形式返回，dirname必须是目录名。<br>
+<br>
 tf.concat<br>
 用来拼接张量<br>
 <br>
@@ -47,3 +48,10 @@ Layer Normalization 针对一个样本各个维度的输出值进行归一化<br
 <br>
 tf.nn.softmax<br>
 用于计算在多个分类上的概率,可以在不同的维度上进行softmax<br>
+<br>
+tf.train.BytesList等<br>
+tf.train.Feature<br>
+tf.train.Features<br>
+tf.train.Example<br>
+将数据转为二进制格式，bin文件<br>
+<br>
